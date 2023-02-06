@@ -1,0 +1,83 @@
+#bottomHalf {
+    width: 90vw;
+    height: 50vh;
+    right: 5vw;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+
+#gameBoard {
+    height: 47vh;
+    width: 47vh;
+    float: right;
+    position: relative;
+    top: 1vh;
+    display: grid;
+    background-color: gray;
+    border-radius: 1px;
+    border: solid black;
+}
+
+.cell {
+    outline: 2px solid black;
+    outline-offset: -2px;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#displayBox {
+    float: right;
+    height: 45vh;
+    width: 64vw;
+    border: solid black;
+    border-radius: 1px;
+    display: grid;
+    grid-column: 7;
+    grid-template-columns: 1fr;
+}
+
+#textBoxCol {
+    display: flex;
+    position: relative;
+    float: right;
+    flex-direction: column;
+    height: 47vh;
+    top:1vh;
+    width: 65vw;
+}
+
+#textBox {
+    width: 64vw;
+}
+
+.textLine {
+    height: 5px;
+    width: 100%;
+    margin: 0 0;
+    font-size: larger;
+}
+
+#button {
+    display: block;
+    margin: 0 auto;
+}
+
+#buttonHolder {
+    display: block;
+    margin: 0 auto;
+    height: 20px;
+    width: 100%;
+}
+
+.innerCell {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+}
