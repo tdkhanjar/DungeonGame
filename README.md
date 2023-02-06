@@ -1,2 +1,2 @@
 # DungeonGame
-Simple Rogue-inspired dungeon crawler
+Simple Rogue-inspired dungeon crawler, used to learn JS and html/css.
